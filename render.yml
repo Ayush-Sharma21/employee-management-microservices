@@ -24,7 +24,7 @@ services:
       - key: SPRING_DATASOURCE_PASSWORD
         value: q8CsveKX4dIbZjC06pSvLF8sh2AXjvVN
       - key: EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE
-        value: https://service-registry.onrender.com/eureka
+        value: https://employee-management-microservices.onrender.com
 
   - type: web
     name: api-gateway
