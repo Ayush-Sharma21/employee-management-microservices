@@ -3,7 +3,7 @@ services:
     name: service-registry
     env: docker
     plan: free
-    repo: https://github.com/your-username/employee-management-microservices
+    repo: https://github.com/Ayush-Sharma21/employee-management-microservices
     branch: main
     rootDir: service-registry
     healthCheckPath: /
@@ -13,7 +13,7 @@ services:
     name: department-service
     env: docker
     plan: free
-    repo: https://github.com/your-username/employee-management-microservices
+    repo: https://github.com/Ayush-Sharma21/employee-management-microservices
     branch: main
     rootDir: department-service/department-service
     envVars:
@@ -30,7 +30,7 @@ services:
     name: api-gateway
     env: docker
     plan: free
-    repo: https://github.com/your-username/employee-management-microservices
+    repo: https://github.com/Ayush-Sharma21/employee-management-microservices
     branch: main
     rootDir: api-gateway
     envVars:
@@ -41,6 +41,6 @@ services:
     name: vaadin-demo
     env: docker
     plan: free
-    repo: https://github.com/your-username/employee-management-microservices
+    repo: https://github.com/Ayush-Sharma21/employee-management-microservices
     branch: main
     rootDir: vaadin-demo
