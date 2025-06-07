@@ -15,7 +15,7 @@ services:
     plan: free
     repo: https://github.com/your-username/employee-management-microservices
     branch: main
-    rootDir: department-service
+    rootDir: department-service/department-service
     envVars:
       - key: SPRING_DATASOURCE_URL
         value: jdbc:postgresql://departments_jgoc_user:q8CsveKX4dIbZjC06pSvLF8sh2AXjvVN@dpg-d11r6949c44c73fkvg1g-a.oregon-postgres.render.com/departments_jgoc
